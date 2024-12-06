@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu li {
+        display: inline-block;
+        margin-right: 25PX;
+    }
+.menu a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    padding-right: 40px;
+}
+.Contacto a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.Contacto a:hover{
+    text-decoration: underline;
+}
+#repartidor{
+    width: 100%;
+}
+#pizza-m{
+    width: 30%;
+}
+.contenedor_principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+#verde{
+    color: green;
+}
+#blanco{
+    color: white;
+}
+#rojo{
+    color: red;
+}
+.contenedor_izquierda{
+    width: 50%;
+    margin: 2px;
+}
+.contenedor_derecha{
+    width: 50%;
+    margin: 2px;
+}
